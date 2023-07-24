@@ -9,4 +9,7 @@ import com.cjc.model.Student;
 @Repository
 public interface Studentrepo extends JpaRepository<Student, Integer> {
 
+  public List<Product> findByProductName(String productname);
+  
+
 }
