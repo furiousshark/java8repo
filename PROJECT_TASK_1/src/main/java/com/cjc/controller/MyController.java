@@ -28,7 +28,7 @@ public class MyController {
 	@PostMapping(value = "/savesupplier")
 	public String savesupplier(@RequestBody Supplier ss) {
 		si.savesupplier(ss);
-
+	system.out.println("akshata");
 		return "success";
 	}
 
